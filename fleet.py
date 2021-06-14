@@ -6,6 +6,6 @@ class Fleet:
         self.robots = []
         self.create_fleet()
 
-    def create_herd(self):
+    def create_fleet(self):
         megatron = Robots("Megatron")
         self.robots.append(megatron)
