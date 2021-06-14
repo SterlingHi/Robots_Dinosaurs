@@ -1,0 +1,4 @@
+
+class Robots:
+    def __init__(self, name):
+        self.name = name
