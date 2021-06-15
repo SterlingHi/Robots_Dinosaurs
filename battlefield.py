@@ -15,7 +15,7 @@ class Battlefield:
 
     def battle(self):
         self.fleet.robots[0].robot_attack(self.herd.dinosaurs[0])
-
+        self.herd.dinosaurs[0].dino_attack(self.fleet.robots[0])
 
 #
 #     def choose_char():
